@@ -4,7 +4,7 @@
 ![Engine](https://img.shields.io/badge/Engine-Python--3.10+-blue)
 ![Methodology](https://img.shields.io/badge/Methodology-Protocole--Ouellette-orange)
 
-> "La résilience n'est pas une propriété de la substance, mais une victoire de la géométrie sur la force brute." — **Dr. Bryan Ouellette**
+> "La résilience n'est pas une propriété de la substance, mais une victoire de la géométrie sur la force brute." — **Bryan Ouellette**
 
 ## 🌐 Synopsis
 Le **Diabolical-Suture-Engine (DSE)** est un framework computationnel conçu pour modéliser et optimiser les interfaces d'assemblage à haute performance. En imitant la suture médiane du coléoptère diabolique (*Phloeodes diabolicus*), capable de supporter 39 000 fois son propre poids, ce moteur remplace les jonctions circulaires classiques par des **lobes ellipsoïdaux à géométrie frustrée**.
