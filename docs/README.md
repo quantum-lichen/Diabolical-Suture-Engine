@@ -38,3 +38,40 @@ graph TD
     B --> C[Simulation: geometry_engine.py]
     C --> D[Visualisation: Matplotlib Interface]
     D --> E[Optimisation: Distribution des Contraintes]
+
+```
+
+## 💻 Implémentation
+
+Le cœur du moteur repose sur le script `geometry_engine.py` qui permet une génération instantanée de l'interface optimale :
+
+```python
+# Extrait de l'algorithme DSE
+def generate_beetle_suture(a, b, kappa, points=200):
+    theta = np.linspace(0, 2*np.pi, points)
+    x = a * np.cos(theta)
+    y = b * np.sin(theta) * (1 + kappa * np.cos(theta))
+    return x, y
+
+```
+
+## 📈 Métrologie Comparative
+
+| Géométrie | Force Critique () | Mode de Rupture | Dissipation d'Énergie |
+| --- | --- | --- | --- |
+| **Circulaire (Standard)** | 80 N | Fragile (Localisée) | Faible |
+| **Ellipsoïdale (BGFE)** | **149 N** | **Ductile (Délaminage)** | **Maximale** |
+
+## 🚀 Applications Industrielles
+
+* **Aérospatiale** : Remplacement des rivets par des sutures intégrées dans les fuselages composites.
+* **Défense** : Blindages modulaires à dissipation d'énergie par interverrouillage.
+* **Bio-médical** : Implants osseux à gradient de rigidité optimisé.
+
+## 🔗 Référence du Manifeste
+
+Ce travail est issu du *Manifeste de la Géométrie Frustrée* (2026) du Dr. Bryan Ouellette, visant à unifier la morphogenèse biologique et l'ingénierie des matériaux.
+
+```
+
+---
