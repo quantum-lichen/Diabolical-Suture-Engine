@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Si vous utilisez cet algorithme de suture, merci de citer les travaux du Dr. Ouellette."
+authors:
+  - family-names: "Ouellette"
+    given-names: "Bryan"
+title: "Diabolical-Suture-Engine: Parametric Optimization of Bio-Inspired Interlocking Interfaces"
+version: 1.0.0
+date-released: 2026-01-16
+url: "https://github.com/BryanOuellette/Diabolical-Suture-Engine"
